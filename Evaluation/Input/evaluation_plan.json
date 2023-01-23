@@ -2,8 +2,8 @@
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Compound",
-            "Path": "../../Compound.json",
+            "Id": "dAb2",
+            "Path": "../../dAb2.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -14,15 +14,15 @@
             "GOFMergedPlotsPredictedVsObserved": [
                 {
                     "Type": "X",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -53,8 +53,8 @@
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -121,19 +121,19 @@
         },
         "AllPlots": [
             {
-                "Project": "Compound",
-                "Simulation": "Sim 1 - intravenous",
+                "Project": "dAb2",
+                "Simulation": "dAb2_Sim",
                 "SectionReference": "ct-profiles"
             },
             {
-                "Project": "Compound",
-                "Simulation": "Sim 2 - peroral",
+                "Project": "dAb2",
+                "Simulation": "dAb2_Sim_Kidney",
                 "SectionReference": "ct-profiles"
             }
         ],
         "GOFMergedPlots": [
             {
-                "Title": "Goodness of fit plot for concentration in plasma",
+                "Title": "Goodness of fit plot for concentration in blood and tissues",
                 "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",
@@ -146,28 +146,98 @@
                 ],
                 "Groups": [
                     {
-                        "Caption": "Intravenous administration",
+                        "Caption": "Blood and tissue concentrations - except kidney",
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 1 - intravenous",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data iv",
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|VenousBlood|dAb2|Whole Blood",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.Blood LSC.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Blood LSC.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Blood LSC.3","Sepp2015_PBPK_dAb_PKSimImport.PKData.Blood LSC.4","Sepp2015_PBPK_dAb_PKSimImport.PKData.Blood LSC.5","Sepp2015_PBPK_dAb_PKSimImport.PKData.Blood LSC.6","Sepp2015_PBPK_dAb_PKSimImport.PKData.Blood QWBA.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Blood QWBA.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Blood QWBA.3"],
                                 "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|Lung|dAb2|Whole Organ incl. FcRn_Complex-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.Lung.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Lung.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Lung.3"],
+                                "Color": "#0000FF"
+                            },
+                            {
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|Skin|dAb2|Whole Organ incl. FcRn_Complex-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.Skin.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Skin.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Skin.3"],
+                                "Color": "#FF00FF"
+                            },
+                            {
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|Muscle|dAb2|Whole Organ incl. FcRn_Complex-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.Muscle.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Muscle.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Muscle.3"],
+                                "Color": "#800080"
+                            },
+                            {
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|Spleen|dAb2|Whole Organ incl. FcRn_Complex-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.Spleen.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Spleen.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Spleen.3"],
+                                "Color": "#00FF00"
+                            },
+                            {
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|Liver|dAb2|Whole Organ incl. FcRn_Complex (Liver)-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.Liver.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Liver.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Liver.3"],
+                                "Color": "#C04000"
+                            },
+                            {
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|Heart|dAb2|Whole Organ incl. FcRn_Complex-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.Heart.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Heart.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Heart.3"],
+                                "Color": "#FF8080"
+                            },
+                            {
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|Bone|dAb2|Whole Organ incl. FcRn_Complex-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.Bone.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Bone.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Bone.3"],
+                                "Color": "#0000C0"
+                            },
+                            {
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|LargeIntestine|dAb2|Whole Organ (Large Intestine) incl. FcRn_Complex-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.GIT.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.GIT.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.GIT.3"],
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|SmallIntestine|dAb2|Whole Organ (Small Intestine) incl. FcRn_Complex-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.GIT.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.GIT.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.GIT.3"],
+                                "Color": "#804040"
+                            },
+                            {
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim",
+                                "Output": "Organism|Brain|dAb2|Whole Organ incl. FcRn_Complex-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.Brain.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Brain.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Brain.3"],
+                                "Color": "#008000"
                             }
                         ]
                     },
                     {
-                        "Caption": "Oral administration",
+                        "Caption": "Kidney tissue concentrations",
                         "Symbol": "Square",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 2 - peroral",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data po",
-                                "Color": "#FF0000"
+                                "Project": "dAb2",
+                                "Simulation": "dAb2_Sim_Kidney",
+                                "Output": "Organism|Kidney|dAb2|Whole Organ incl. FcRn_Complex-dAb2",
+                                "ObservedData": ["Sepp2015_PBPK_dAb_PKSimImport.PKData.Kidney.1","Sepp2015_PBPK_dAb_PKSimImport.PKData.Kidney.2","Sepp2015_PBPK_dAb_PKSimImport.PKData.Kidney.2"],
+                                "Color": "#FF8000"
                             }
                         ]
                     }
@@ -180,15 +250,9 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
-            "Name": "COMPOUND",
+            "Project": "dAb2",
+            "Name": "dAb2",
             "Type": "Compound",
-            "SectionReference": "final-input-parameters"
-        },
-        {
-            "Project": "Compound",
-            "Name": "Tablet",
-            "Type": "Formulation",
             "SectionReference": "final-input-parameters"
         }
     ],

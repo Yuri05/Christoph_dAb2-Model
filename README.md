@@ -1,5 +1,5 @@
-# COMPOUND-Model
-**_tbd._**
+# dAb2-Model
+Whole-body PBPK model of a domain antibody dAb2 in mice.
 
 ## Repository files
 **_tbd._**
