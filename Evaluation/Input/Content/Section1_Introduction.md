@@ -4,5 +4,4 @@ Since the dAb2 is smaller than antibodies, the PK data (blood and tissue concent
 
 The herein presented evaluation report evaluates the performance of the PBPK model for dAb2 in mice for the PK data used for the development of the generic large molecule model in PK-Sim.
 
-The presented dAb2 PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/.../Compound-model).
-
+The presented dAb2 PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/Open-Systems-Pharmacology/dAb2-Model)
