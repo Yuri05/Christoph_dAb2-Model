@@ -1,4 +1,4 @@
-### 2.2.1	In vitro / physico-chemical Data
+### In vitro / physico-chemical Data <a id="invitro-and-physico-chemical-data"></a>
 
 A literature search was performed to collect available information on physicochemical properties of dAb2. The obtained information from literature is summarized in the table below. 
 
@@ -8,7 +8,7 @@ A literature search was performed to collect available information on physicoche
 | r             | nm       | 2.43      | calculated   from MW      | Hydrodynamic solute radius. Calculated by empirical equation given in [Niederalt2018](#5-references), supplemental material |
 | Kd (FcRn)     | µM       | 999,999   |                           | high value representing no FcRn binding                      |
 
-### 2.2.2	PK Data
+### PK Data <a id="PK-data"></a>
 
 Published plasma and tissue PK data on dAb2 in mice were used.
 

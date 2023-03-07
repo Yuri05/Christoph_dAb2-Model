@@ -15,182 +15,208 @@
           "Path": "Organism|Bone|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Brain|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Fat|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Gonads|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Heart|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Kidney|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|LargeIntestine|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Rectum|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Liver|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Lung|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Muscle|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Pancreas|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Skin|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|SmallIntestine|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Spleen|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         },
         {
           "Path": "Organism|Stomach|Fraction of blood for sampling",
           "Value": 0.42,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Publication",
+            "Description": "Niederalt2018 (doi: 10.1007/s10928-017-9559-4)"
           }
         }
       ],
@@ -210,7 +236,7 @@
               "Value": -5.0,
               "Unit": "Log Units",
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             }
@@ -226,7 +252,7 @@
               "Name": "Fraction unbound (plasma, reference value)",
               "Value": 1.0,
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "Assumption"
               }
             }
@@ -242,7 +268,7 @@
               "Value": 9999.0,
               "Unit": "mg/l",
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             },
@@ -250,7 +276,7 @@
               "Name": "Reference pH",
               "Value": 7.0,
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             }
@@ -596,7 +622,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         },
         {
           "Axes": [
@@ -760,7 +786,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         },
         {
           "Axes": [
@@ -853,7 +879,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         },
         {
           "Axes": [
@@ -946,7 +972,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         },
         {
           "Axes": [
@@ -1039,7 +1065,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         },
         {
           "Axes": [
@@ -1132,7 +1158,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         },
         {
           "Axes": [
@@ -1225,7 +1251,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         },
         {
           "Axes": [
@@ -1318,7 +1344,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         },
         {
           "Axes": [
@@ -1411,7 +1437,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         },
         {
           "Axes": [
@@ -1513,7 +1539,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         },
         {
           "Axes": [
@@ -1606,7 +1632,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim\n2023-03-07 10:34"
         }
       ]
     },
@@ -1774,7 +1800,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "dAb2\ndAb2_Sim_Kidney\n2022-11-16 13:52"
+          "OriginText": "dAb2\ndAb2_Sim_Kidney\n2023-03-07 10:34"
         }
       ]
     }
